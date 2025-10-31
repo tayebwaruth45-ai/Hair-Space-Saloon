@@ -1,0 +1,126 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover, header nav a.active {
+  color: #ff66b2;
+}
+
+.hero {
+  background-image: url('IMAGES/istockphoto-1437004983-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 40px;
+}
+
+.services .service {
+  width: 30%;
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.services img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ff66b2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px auto;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #e0559c;
+}
+
+
+.video-section {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 20px;
+  margin-top: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.video-section h2 {
+  font-size: 2em;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.video-section p {
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 1.1em;
+}
+
+.video-section video {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
